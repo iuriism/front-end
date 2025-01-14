@@ -1,0 +1,506 @@
+/* Общие стили для всего документа */
+body {
+   font-family: 'Arial', sans-serif; /* Устанавливает основной шрифт Arial. */
+   background-color: #f9f9f9; /* Задает цвет фона для страницы. */
+   max-width: 1280px; /* Устанавливаем максимальную ширину страницы */
+   margin: 0 auto; /* Центрируем страницу */
+}
+
+/* Стили для хедера */
+header {
+   display: flex; /* Включает Flexbox для расположения элементов в строку. */
+   justify-content: space-between; /* Элементы распределяются по краям хедера. */
+   align-items: center; /* Выравнивает элементы по вертикали по центру. */
+   max-width: 1040px; /* Ограничивает максимальную ширину хедера. */
+   margin: 0 auto; /* Центрирует хедер по горизонтали. */
+   padding: 40px 120px; /* Добавляет вертикальные отступы сверху и снизу. */
+   background-color: #0866ff; /* Устанавливаем фон, если требуется */
+   }
+
+/* Стили для логотипа */
+header .logo {
+   font-size: 18px; /* Устанавливает размер шрифта. */
+   font-weight: bold; /* Делаем текст жирным. */
+   white-space: nowrap; /* Предотвращает перенос текста на новую строку. */
+}
+
+/* Стили для навигации */
+header nav ul {
+   display: flex; /* Включает Flexbox для списка навигации. */
+   gap: 48px; /* Устанавливает равномерные отступы между элементами. */
+   list-style: none; /* Убирает маркеры списка. */
+   margin: 0; /* Убирает отступы по умолчанию. */
+   padding: 0; /* Убирает внутренние отступы по умолчанию. */
+   
+}
+
+/* Стили для ссылок навигации */
+header nav ul li a {
+   text-decoration: none; /* Убирает подчеркивание ссылок. */
+   color: black; /* Устанавливает черный цвет текста. */
+   font-size: 16px; /* Устанавливает стандартный размер шрифта. */
+}
+
+/* Стили для кнопки "Contact me" */
+header .contact-btn {
+   border: 1px solid black; /* Добавляет черную рамку вокруг кнопки. */
+   background: none; /* Убирает фон кнопки. */
+   padding: 5px 15px; /* Добавляет внутренние отступы. */
+   font-size: 18px; /* Устанавливает размер шрифта. */
+   font-weight: bold; /* Делаем текст жирным. */
+   cursor: pointer; /* Меняет курсор на указатель при наведении. */
+   white-space: nowrap; /* Предотвращает перенос текста кнопки. */
+   border-radius: 5px; /* Скругляет углы кнопки. */
+   transition: background-color 0.3s ease; /* Плавное изменение цвета за 0.3 секунды */
+}
+
+/* Эффект при наведении на кнопку */
+header .contact-btn:hover {
+   background-color: #e0863d; /* Меняет фон кнопки при наведении. */
+}
+
+
+
+
+
+
+
+
+/* Hero Section */
+/* Основные стили для секции Hero */
+.hero {
+   display: flex; /* Flexbox для центрирования содержимого */
+   flex-direction: column; /* Элементы располагаются в колонку */
+   align-items: center; /* Центрирование по горизонтали */
+   max-width: 1040px; /* Ширина как у хедера */
+   margin: 0 auto; /* Центрирование по горизонтали */
+   padding: 40px 0; /* Отступы сверху и снизу */
+   text-align: center; /* Текст по центру */
+}
+
+/* Hero Section */
+.hero {
+   max-width: 1040px; /* Ограничиваем контент */
+   margin: 0 auto; /* Центрируем блок */
+   padding: 40px 120px; /* Отступы по бокам */
+   background-color: #ebe8e8e6; /* Фон секции */
+}
+
+/* Стили для изображения */
+.hero-image {
+   width: 100%; /* Заполняет доступную ширину */
+   max-width: 1040px; /* Ширина совпадает с хедером */
+   margin-bottom: 20px; /* Отступ снизу */
+}
+
+.hero-image img {
+   width: 100%; /* Растягиваем изображение по ширине */
+   height: auto; /* Автоматическая высота */
+   border-radius: 20px; /* Скругленные углы */
+}
+
+/* Стили для заголовка */
+.hero h1 {
+   font-size: 35px; /* Размер шрифта */
+   font-weight: bold; /* Жирное начертание */
+   margin: 20px 0; /* Отступ сверху и снизу */
+}
+
+/* Стили для описания */
+.hero p {
+   font-size: 18px; /* Размер шрифта */
+   font-style: italic; /* Курсив */
+   max-width: 800px; /* Ограничение ширины текста */
+   margin: 0 auto 20px; /* Центрирование и отступ снизу */
+   line-height: 1.5; /* Межстрочный интервал */
+}
+
+/* Стили для кнопки */
+.hero-btn {
+   border: 1px solid black; /* Черная рамка */
+   background: none; /* Прозрачный фон */
+   padding: 8px 16px; /* Внутренние отступы */
+   font-size: 1em; /* Размер шрифта */
+   font-family: 'Georgia', serif; /* Шрифт как в макете */
+   cursor: pointer; /* Курсор при наведении */
+   border-radius: 5px; /* Скругленные углы */
+   margin-top: 10px; /* Отступ сверху */
+}
+
+/* Эффект при наведении */
+.hero-btn:hover {
+   background-color: #797171; /* Светлый фон при наведении */
+}
+
+
+
+
+
+
+
+
+/* My Works Section */
+/* Общие стили для секции */
+.works {
+   max-width: 1040px; /* Ограничение ширины по хедеру */
+   margin: 0 auto; /* Центрирование секции */
+   padding: 40px 0; /* Отступы сверху и снизу */
+   text-align: center; /* Выравнивание заголовка по центру */
+}
+
+/* My Works Section */
+.works {
+   max-width: 1040px; /* Ограничиваем контент */
+   margin: 0 auto; /* Центрируем блок */
+   padding: 40px 120px; /* Отступы по бокам */
+   background-color: #fff; /* Фон секции */
+}
+
+/* Заголовок секции */
+.works h2 {
+   font-size: 1.8em; /* Размер шрифта заголовка */
+   margin-bottom: 30px; /* Отступ снизу */
+   font-family: 'Georgia', serif; /* Шрифт как в примере */
+}
+
+/* Контейнер для карточек */
+.works-cards {
+   display: flex; /* Включаем Flexbox */
+   justify-content: space-between; /* Равномерное распределение карточек */
+   gap: 20px; /* Промежуток между карточками */
+   flex-wrap: wrap; /* Перенос на новую строку при нехватке места */
+   
+}
+
+/* Карточка проекта */
+.card {
+   background-color: #fff; /* Белый фон карточки */
+   border-radius: 15px; /* Скругление углов */
+   overflow: hidden; /* Обрезка содержимого по границам */
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Тень */
+   text-align: center; /* Центрирование текста */
+   width: calc(33.33% - 20px); /* Равномерное распределение ширины */
+   max-width: 320px; /* Максимальная ширина карточки */
+   
+}
+
+/* Изображение в карточке */
+.card img {
+   width: 100%; /* Растягиваем изображение по ширине карточки */
+   height: 200px; /* Фиксированная высота изображения */
+   object-fit: cover; /* Сохранение пропорций */
+   display: block; /* Убираем лишние отступы */
+   
+}
+
+/* Контент карточки */
+.card-content {
+   padding: 15px; /* Внутренние отступы */
+}
+
+/* Заголовок карточки */
+.card-content h3 {
+   font-size: 18px; /* Размер шрифта */
+   font-family: 'Georgia', serif; /* Шрифт как в макете */
+   margin-top: 10px; /* Отступ снизу */
+   margin-bottom: 10px; /* Отступ снизу */
+}
+
+/* Описание карточки */
+.card-content p {
+   font-size: 15px; /* Размер шрифта */
+   color: #666; /* Серый цвет текста */
+   margin: 0; /* Убираем отступы */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Work Process Section */
+
+/* Общие стили для секции */
+.work-process {
+   max-width: 1040px; /* Ограничение ширины по хедеру */
+   margin: 0 auto; /* Центрирование по горизонтали */
+   padding: 40px 0; /* Отступы сверху и снизу */
+   background: linear-gradient(to bottom, #f5f5f5, #e0e0e0); /* Градиент фона */
+   border-radius: 10px; /* Скругление углов */
+}
+
+/* Work Process Section */
+.work-process {
+   max-width: 1040px; /* Ограничиваем контент */
+   margin: 0 auto; /* Центрируем блок */
+   padding: 40px 120px; /* Отступы по бокам */
+   background: linear-gradient(to bottom, #f5f5f5, #e0e0e0); /* Фон секции */
+}
+
+/* Заголовок секции */
+.work-process h2 {
+   font-size: 1.8em; /* Размер шрифта */
+   font-family: 'Georgia', serif; /* Шрифт */
+   margin-bottom: 30px; /* Отступ снизу */
+   text-align: center; /* Центрирование заголовка */
+}
+
+/* Контейнер для шагов */
+.process-steps {
+   display: flex; /* Включаем Flexbox */
+   flex-direction: column; /* Элементы располагаются вертикально */
+   gap: 30px; /* Промежуток между шагами */
+}
+
+/* Шаг процесса */
+.process-step {
+   display: flex; /* Flexbox для шага */
+   justify-content: space-between; /* Левый и правый блоки распределены по краям */
+   align-items: flex-start; /* Выровнены по верхнему краю */
+   gap: 20px; /* Промежуток между контентом и номером */
+   padding: 15px 0; /* Отступы сверху и снизу */
+   position: relative; /* Для позиционирования линий */
+}
+
+/* Левая часть шага */
+.step-left {
+   flex: 1; /* Левый блок занимает всё доступное пространство */
+}
+
+/* Заголовок шага */
+.step-left h3 {
+   font-size: 1.2em; /* Размер шрифта */
+   font-family: 'Georgia', serif; /* Шрифт */
+   font-weight: bold; /* Жирное начертание */
+   margin: 0; /* Убираем отступы */
+}
+
+/* Линия под заголовком */
+.step-underline {
+   width: 100%; /* Линия на всю ширину */
+   height: 1px; /* Толщина линии */
+   background-color: #000; /* Черная линия */
+   margin: 8px 0; /* Отступ сверху и снизу */
+}
+
+/* Описание шага */
+.step-left p {
+   font-size: 0.9em; /* Размер шрифта */
+   color: #666; /* Серый цвет текста */
+   margin: 0; /* Убираем отступы */
+   padding-top: 8px; /* Небольшой отступ сверху */
+}
+
+/* Правая часть шага (номер) */
+.step-number {
+   font-size: 1em; /* Размер шрифта */
+   font-weight: bold; /* Жирное начертание */
+   border: 1px solid #000; /* Рамка вокруг номера */
+   border-radius: 50%; /* Круглая форма */
+   width: 30px; /* Фиксированная ширина */
+   height: 30px; /* Фиксированная высота */
+   display: flex; /* Включаем Flexbox */
+   justify-content: center; /* Центрирование по горизонтали */
+   align-items: center; /* Центрирование по вертикали */
+   flex-shrink: 0; /* Предотвращаем сжатие */
+   background: #f5f5f5; /* Фон кружка */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Contact Section */
+
+/* Общие стили для секции */
+.contact {
+   max-width: 1040px; /* Ограничение по ширине, как у остальных секций */
+   margin: 0 auto; /* Центрирование по горизонтали */
+   padding: 50px 20px; /* Внутренние отступы */
+   background-color: #1a1a1a; /* Тёмный фон */
+   color: #fff; /* Белый цвет текста */
+   text-align: center; /* Выравнивание текста по центру */
+   border-radius: 20px 20px 0 0; /* Скругление верхних углов */
+}
+
+/* Contact Section */
+.contact {
+   max-width: 1040px; /* Ограничиваем контент */
+   margin: 0 auto; /* Центрируем блок */
+   padding: 50px 120px; /* Отступы по бокам */
+   background-color: #1a1a1a; /* Фон секции */
+}
+
+/* Заголовок секции */
+.contact h2 {
+   font-size: 2.5em; /* Размер шрифта */
+   margin-bottom: 10px; /* Отступ снизу */
+}
+
+/* Подзаголовок секции */
+.contact p {
+   font-size: 1em; /* Размер шрифта */
+   margin-bottom: 30px; /* Отступ снизу */
+   color: #ccc; /* Светло-серый цвет текста */
+}
+
+/* Форма обратной связи */
+.contact-form {
+   display: flex; /* Flexbox для формы */
+   flex-direction: column; /* Элементы в колонку */
+   align-items: center; /* Выравнивание по центру */
+   gap: 20px; /* Отступы между элементами */
+   max-width: 600px; /* Ограничение ширины формы */
+   margin: 0 auto; /* Центрирование формы */
+}
+
+/* Поля ввода на одной линии */
+.form-row {
+   display: flex; /* Flexbox для строки */
+   gap: 20px; /* Отступ между полями */
+   width: 100%; /* Заполнение всей ширины */
+}
+
+/* Поля ввода (Имя и Email) */
+.form-row input {
+   flex: 1; /* Поля равномерно заполняют пространство */
+   padding: 10px; /* Внутренние отступы */
+   border: none; /* Убираем рамку */
+   border-radius: 5px; /* Скруглённые углы */
+   font-size: 1em; /* Размер шрифта */
+   background-color: #333; /* Цвет фона полей */
+   color: #fff; /* Цвет текста */
+}
+
+/* Поле для сообщения */
+.contact-form textarea {
+   width: 100%; /* Полная ширина */
+   height: 150px; /* Фиксированная высота */
+   padding: 10px; /* Внутренние отступы */
+   border: none; /* Убираем рамку */
+   border-radius: 5px; /* Скруглённые углы */
+   font-size: 1em; /* Размер шрифта */
+   background-color: #333; /* Цвет фона */
+   color: #fff; /* Цвет текста */
+   resize: none; /* Отключаем изменение размера */
+}
+
+/* Кнопка отправки */
+.contact-form button {
+   margin-top: 10px; /* Отступ сверху */
+   padding: 10px 20px; /* Внутренние отступы */
+   border: 1px solid #fff; /* Белая рамка */
+   background: none; /* Прозрачный фон */
+   color: #fff; /* Белый текст */
+   font-size: 1em; /* Размер шрифта */
+   border-radius: 5px; /* Скруглённые углы */
+   cursor: pointer; /* Курсор при наведении */
+   transition: background-color 0.3s, color 0.3s; /* Плавный переход */
+}
+/* Эффект при наведении на кнопку */
+.contact-form button:hover {
+   background-color: #fff; /* Белый фон */
+   color: #1a1a1a; /* Тёмный текст */
+}
+/* --- Пунктирная граница между Contact Section и Footer --- */
+
+.contact {
+   border-bottom: 1px dashed #fff; /* Пунктирная граница белого цвета */
+   max-width: 1280px; /* Ширина границы на всю страницу */
+   margin: 0 auto; /* Центрируем по горизонтали */
+}
+
+
+
+
+
+
+
+/* Footer Styles */
+/* Общие стили для футера */
+footer {
+   display: flex; /* Используем Flexbox для горизонтального выравнивания */
+   justify-content: space-between; /* Элементы по краям контейнера */
+   align-items: center; /* Выравнивание по вертикали по центру */
+   background-color: #1a1a1a; /* Цвет фона футера */
+   color: #fff; /* Цвет текста */
+   padding: 20px 120px; /* Внутренние отступы сверху/снизу и по бокам */
+   font-family: 'Georgia', serif; /* Шрифт как в примере */
+}
+/* Общие стили для футера */
+footer {
+   display: flex; /* Используем Flexbox для горизонтального выравнивания */
+   justify-content: space-between; /* Элементы по краям контейнера */
+   align-items: center; /* Выравнивание по вертикали по центру */
+   background-color: #1a1a1a; /* Цвет фона футера */
+   color: #fff; /* Цвет текста */
+   max-width: 1040px; /* Ширина аналогична хедеру */
+   margin: 0 auto; /* Центрирование футера */
+   padding: 20px 0; /* Вертикальные отступы */
+   font-family: 'Georgia', serif; /* Шрифт как в примере */
+}
+
+/* Стили для логотипа футера */
+.footer-logo {
+   font-size: 1.2em; /* Размер шрифта */
+   font-weight: bold; /* Жирное начертание текста */
+   white-space: nowrap; /* Запрещает перенос текста */
+}
+/* Стили для логотипа в футере */
+.footer-logo {
+   font-size: 1.2em; /* Размер шрифта логотипа */
+   font-weight: bold; /* Жирное начертание текста */
+   white-space: nowrap; /* Предотвращает перенос текста */
+}
+
+/* Footer Section */
+footer {
+   max-width: 1040px; /* Ограничиваем контент */
+   margin: 0 auto; /* Центрируем блок */
+   padding: 20px 120px; /* Отступы по бокам */
+   background-color: #1a1a1a; /* Фон секции */
+}
+/* Стили для блока социальных ссылок */
+.footer-social ul {
+   display: flex; /* Используем Flexbox для ссылок */
+   gap: 60px; /* Отступы между ссылками */
+   list-style: none; /* Убираем маркеры списка */
+   margin: 0; /* Убираем отступы по умолчанию */
+   padding: 0; /* Убираем внутренние отступы */
+}
+/* Стили для блока социальных ссылок */
+.footer-social ul {
+   display: flex; /* Элементы располагаются в строку */
+   gap: 40px; /* Равномерные отступы между ссылками */
+   list-style: none; /* Убираем маркеры списка */
+   margin: 0; /* Убираем внешние отступы */
+   padding: 0; /* Убираем внутренние отступы */
+}
+
+/* Стили для ссылок */
+.footer-social ul li a {
+   text-decoration: none; /* Убираем подчеркивание */
+   color: #fff; /* Цвет текста */
+   font-size: 1em; /* Размер шрифта */
+   transition: color 0.3s; /* Плавное изменение цвета */
+}
+/* Эффект при наведении */
+.footer-social ul li a:hover {
+   color: #ccc; /* Серый цвет при наведении */
+}
