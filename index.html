@@ -1,216 +1,212 @@
-<!DOCTYPE html> <!-- Указывает тип документа и версию HTML (HTML5). -->
-<html lang="en"> <!-- Открывает HTML-документ и задает язык содержимого (английский). -->
+<!DOCTYPE html>
+<html lang="en"> 
 <head>
-    <meta charset="UTF-8"> <!-- Устанавливает кодировку символов UTF-8. -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Адаптивный дизайн для мобильных устройств. -->
-    <title>Iurii Smirnov</title> <!-- Задает заголовок страницы (отображается на вкладке браузера). -->
-    <link rel="stylesheet" href="styles.css"> <!-- Подключает внешний CSS-файл для стилизации. -->
-</head>
-
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles2.css">
+    <title>Iurii Smirnov site</title>
+</head> 
 <body>
-    <!-- Основной контейнер хедера -->
     <header>
-        <!-- Логотип слева Комент для Git -->
-        <div class="logo">IuriiSmirnov</div> <!-- Текстовый логотип сайта. -->
-
-        <!-- Навигационное меню по центру -->
-        <nav>
-            <ul> <!-- Список навигационных элементов. -->
-                <li><a href="#">About me</a></li> <!-- Ссылка на раздел "about me". -->
-                <li><a href="#">My works</a></li> <!-- Ссылка на раздел "my works". -->
-                <li><a href="#">My process</a></li> <!-- Ссылка на раздел "my process". -->
-            </ul>
-        </nav>
-
-        <!-- Кнопка справа -->
-        <button class="contact-btn" target="_blank">Contact me</button> <!-- Кнопка для связи. -->
+        <div class="Header_logo"> 
+            IuriiSmirnov
+        </div>
+        <div class="Header_nav">
+            <nav>
+                <ul>
+                    <li> 
+                        <a href="#">
+                            About me
+                        </a>
+                    </li>
+                    <li> 
+                        <a href="#">
+                            My works
+                        </a>
+                    </li>
+                    <li> 
+                        <a href="#">
+                            My process
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <button class="Header_button" target="_blank"> 
+            <a href="https://www.pinterest.com/pin/in-2021--1129840625237974600/">
+                Contact me
+            </a>
+        </button>
     </header>
-
-
-
-
-<!-- Hero Section -->
-<section class="hero">
-    <!-- Изображение в верхней части секции -->
-    <div class="hero-image">
-        <img src="hero-image.jpg" alt="Fireworks and Balloon">
-    </div>
-
-    <!-- Заголовок -->
-    <h1>Iurii Smirnov - future QA engeneer</h1>
-
-    <!-- Описание -->
-    <p>
-        Hi! My name is Iurii, and I’m from Russia. These are my first steps towards a new career as a QA engineer. 
-        There’s still a lot I don’t understand, but it’s just the beginning. I’m sure everything will be fine.
-    </p>
-
-    <!-- Кнопка -->
-    <button class="hero-btn">Let's get in touch</button>
-</section>
-
-
-
-
-
-
-<!-- My Works Section -->
-<section class="works">
-    <!-- Заголовок секции - это все три раздела с картинками и заголовком-->
-    <h2>My Works</h2>
-
-    <!-- Карточки проектов это все три раздела с картинками без главного заголовка-->
-    <div class="works-cards">
-        <!-- Первая карточка -->
-        <div class="card">
-            <img src="project1.jpg" alt="Project Alfa">
-            <div class="card-content">
-                <h3>Project I</h3>
-                <p>First test cases</p>
-            </div>
-        </div>
-
-        <!-- Вторая карточка -->
-        <div class="card">
-            <img src="project2.jpg" alt="Project Beta">
-            <div class="card-content">
-                <h3>Project II</h3>
-                <p>First bugs</p>
-            </div>
-        </div>
-
-        <!-- Третья карточка -->
-        <div class="card">
-            <img src="project3.jpg" alt="Project Gamma">
-            <div class="card-content">
-                <h3>Project III</h3>
-                <p>First website</p>
-            </div>
-        </div>
-    </div>
-</section>
-
-
-
-
-
-
-
-
-
-
-
-
-<!-- Work Process Section -->
-<section class="work-process">
-    <!-- Заголовок секции -->
-    <h2>Work process</h2>
-
-    <!-- Этапы работы -->
-    <div class="process-steps">
-        <!-- Первый этап -->
-        <div class="process-step">
-            <div class="step-left">
-                <h3>Training</h3>
-                <div class="step-underline"></div>
-                <p>Studying theoretical materials on QA engineering to enter the profession</p>
-            </div>
-            <span class="step-number">①</span>
-        </div>
-
-        <!-- Второй этап -->
-        <div class="process-step">
-            <div class="step-left">
-                <h3>Homework</h3>
-                <div class="step-underline"></div>
-                <p>Completing homework assignments, no matter how interesting or not they may be</p>
-            </div>
-            <span class="step-number">②</span>
-        </div>
-
-        <!-- Третий этап -->
-        <div class="process-step">
-            <div class="step-left">
-                <h3>Self-study</h3>
-                <div class="step-underline"></div>
-                <p>Exploring additional materials and working with ChatGPT</p>
-            </div>
-            <span class="step-number">③</span>
-        </div>
-
-        <!-- Четвертый этап -->
-        <div class="process-step">
-            <div class="step-left">
-                <h3>My Documents</h3>
-                <div class="step-underline"></div>
-                <p>A repository of key materials from the QA engineer training course</p>
-            </div>
-            <span class="step-number">④</span>
-        </div>
-    </div>
-</section>
-
-
-
-
-
-
-
-
-
-
-
-<!-- Contact Section -->
-<section class="contact">
-    <!-- Заголовок секции -->
-    <h2>Get in touch!</h2>
-    <p>Just fill out the form below and send me your message</p>
-
-    <!-- Форма обратной связи -->
-    <form class="contact-form">
-        <!-- Поля ввода для имени и почты -->
-        <div class="form-row">
-            <input type="text" placeholder="your name">
-            <input type="email" placeholder="your e-mail">
-        </div>
-
-        <!-- Поле ввода сообщения -->
-        <textarea placeholder="hold your message"></textarea>
-
-        <!-- Кнопка отправки -->
-        <button type="submit">Send message</button>
-    </form>
-</section>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!-- Footer Section -->
-<footer>
-    <!-- Логотип футера слева -->
-    <div class="footer-logo">IuriiSmirnov</div>
     
-    <!-- Социальные ссылки справа -->
-    <nav class="footer-social">
-        <ul>
-            <li><a href="https://www.facebook.com/yuriksm/" target="_blank">facebook</a></li> <!-- Ссылка на Facebook с открытием в новом окне-->
-            <li><a href="https://www.instagram.com/yuriy_v_smirnov/" target="_blank">instagram</a></li> <!-- Ссылка на Instagram с открытием в новом окне-->
-            <li><a href="https://t.me/@Me" target="_blank">telegram</a></li> <!-- Ссылка на Telegram с открытием в новом окне-->
-        </ul>
-    </nav>
-</footer>
+    
+    <section class="Main">
+        <div class="Main_image">
+            <img src="main_image.jpg" alt="Main image">
+        </div>
+        <div>
+            <h1>
+                Smirnov - future QA engeneer
+            </h1> 
+        </div>
+        <div>
+            <p>
+            Hi, My name is Iurii, and I’m from Russia. 
+            These are my first steps towards a new career as a QA engineer. 
+            There’s still a lot I don’t understand, but it’s just the beginning. 
+            I’m sure everything will be fine.
+            </p>
+        </div>
+        <button class="Button2">
+            <a href="#">
+                Let's get in touch
+            </a>
+        </button>
+    </section>
+    
 
+    <section class="My_works">
+        <h2>
+            My works
+        </h2>
+        <div class="My_works_cards_block">
+        <div class="Cards">
+            <img src="My works image1.jpg" alt="My works image1">
+            <div class="Cards_content">
+                <h3>
+                    Project I
+                </h3>
+                <p>
+                    First test cases
+                </p>
+            </div>
+        </div>
+        
+        <div class="Cards">
+            <img src="My works image2.jpg" alt="My works image2">
+            <div class="Cards_content">
+                <h3>
+                    Project I
+                </h3>
+                <p>
+                    First test cases
+                </p>
+            </div>
+        </div>
+        
+                
+        <div class="Cards">
+            <img src="My works image3.jpg" alt="My works image3">
+            <div class="Cards_content">
+                <h3>
+                    Project I
+                </h3>
+                <p>
+                    First test cases
+                </p>
+            </div>
+        </div>
+        </div>
+    </section>
+    
 
+    <section class="Work_process">
+        <h2>
+            Work process
+        </h2>
+        <div class="Work_process_parts">
+        <div class="Work_process_part">
+            <div class="WP_left"> 
+                <h3>
+                Training
+                </h3>
+            <div class="Lines"></div>
+            <p>
+                Studying theoretical materials on QA engineering to enter the profession
+            </p>
+            </div>
+            <span class="Number">1</span>
+        </div>
+
+        <div class="Work_process_part">
+            <div class="WP_left"> <h3>
+                Homework
+            </h3>
+            <div class="Lines"></div>
+            <p>
+                Completing homework assignments, no matter how interesting or not they may be
+            </p>
+            </div>
+            <span class="Number">2</span>
+        </div>
+
+        <div class="Work_process_part">
+            <div class="WP_left"> <h3>
+                Self-study
+            </h3>
+            <div class="Lines"></div>
+            <p>
+                Exploring additional materials and working with ChatGPT
+            </p>
+            </div>
+            <span class="Number">3</span>
+        </div>
+
+        <div class="Work_process_part">
+            <div class="WP_left"> <h3>
+                My Documents
+            </h3>
+            <div class="Lines"></div>
+            <p>
+                A repository of key materials from the QA engineer training course
+            </p>
+        </div>
+            <span class="Number">4</span>
+        </div>
+    </div>
+    </section>
+    
+
+    <section class="Feedback">
+        <h2>
+            Get in touch!
+        </h2>
+        <p>
+            Just fill out the form below and send me your message
+        </p>
+        <form class="Main_forma">
+        <div class="Forma">
+            <input type="text" placeholder="your name">
+            <input type="email" placeholder="your email">
+        </div>
+        <textarea placeholder="hold your message"></textarea>
+        <button type="submit">Send message</button>
+        </form>
+    </section>
+    
+    
+    <footer>
+        <div class="Footer_name">
+            IuriiSmirnov
+        </div>
+        <div class="Footer_links">
+            <ul>
+                <li> 
+                    <a href="#">
+                        Instagram
+                    </a>
+                </li>
+                <li> 
+                    <a href="#">
+                        Facebook
+                    </a>
+                </li>
+                <li> 
+                    <a href="#">
+                        Telegram
+                    </a>
+                </li>
+            </ul>
+        </div>
+     </footer>
 </body>
-</html>
