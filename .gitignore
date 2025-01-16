@@ -1,0 +1,4 @@
+# Windows thumbnail cache files 
+Thumbs.db 
+ehthumbs.db 
+# Windows image file cache ehthumbs_vista.db # Recycle Bin files $RECYCLE.BIN/ # Windows system file Desktop.ini # Windows Installer files *.cab *.msi *.msm *.msp # Windows shortcuts *.lnk
