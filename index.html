@@ -1,212 +1,168 @@
 <!DOCTYPE html>
-<html lang="en"> 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles2.css">
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles2.css" />
+
+    <!-- Включили скрипты JS в этот файл -->
+    <script src="working-scripts.js"></script>
+
     <title>Iurii Smirnov site</title>
-</head> 
-<body>
+  </head>
+  <body>
     <header>
-        <div class="Header_logo"> 
-            IuriiSmirnov
-        </div>
-        <div class="Header_nav">
-            <nav>
-                <ul>
-                    <li> 
-                        <a href="#">
-                            About me
-                        </a>
-                    </li>
-                    <li> 
-                        <a href="#">
-                            My works
-                        </a>
-                    </li>
-                    <li> 
-                        <a href="#">
-                            My process
-                        </a>
-                    </li>
-                </ul>
-            </nav>
-        </div>
-        <button class="Header_button" target="_blank"> 
-            <a href="#">
-                Contact me
-            </a>
-        </button>
+      <div id="Logo" class="Header_logo">IuriiSmirnov</div>
+
+      <div class="hamburger" id="hamburger-id">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+
+      
+      <div class="Header_nav" id="menu-id">
+        <nav>
+          <ul>
+            <li><a href="#">About me</a></li>
+            <li><a href="#">My works</a></li>
+            <li><a href="#">My process</a></li>
+          </ul>
+        </nav>
+      </div>
+      <button class="Header_button" target="_blank">
+        <a href="#"> Contact me </a>
+     </button>
+
+      
     </header>
-    
-    
+
     <section class="Main">
-        <div class="Main_image">
-            <img src="main_image.jpg" alt="Main image">
-        </div>
-        <div>
-            <h1>
-                Smirnov - future QA engeneer
-            </h1> 
-        </div>
-        <div>
-            <p>
-            Hi, My name is Iurii, and I’m from Russia. 
-            These are my first steps towards a new career as a QA engineer. 
-            There’s still a lot I don’t understand, but it’s just the beginning. 
-            I’m sure everything will be fine.
-            </p>
-        </div>
-        <button class="Button2">
-            <a href="#">
-                Let's get in touch
-            </a>
-        </button>
+      <div class="Main_image">
+        <img src="main_image.jpg" alt="Main image" />
+      </div>
+      <div>
+        <h1>Smirnov - future QA engineer</h1>
+      </div>
+      <div>
+        <p>
+          Hi, My name is Iurii, and I’m from Russia. These are my first steps
+          towards a new career as a QA engineer. There’s still a lot I don’t
+          understand, but it’s just the beginning. I’m sure everything will be
+          fine.
+        </p>
+      </div>
+      <button class="Button2">
+        <a href="#"> Let's get in touch </a>
+      </button>
     </section>
-    
 
     <section class="My_works">
-        <h2>
-            My works
-        </h2>
-        <div class="My_works_cards_block">
+      <h2>My works</h2>
+      <div class="My_works_cards_block">
         <div class="Cards">
-            <img src="My works image1.jpg" alt="My works image1">
-            <div class="Cards_content">
-                <h3>
-                    Project I
-                </h3>
-                <p>
-                    First test cases
-                </p>
-            </div>
+          <img src="My works image1.jpg" alt="My works image1" />
+          <div class="Cards_content">
+            <h3>Project I</h3>
+            <p>First test cases</p>
+          </div>
         </div>
-        
+
         <div class="Cards">
-            <img src="My works image2.jpg" alt="My works image2">
-            <div class="Cards_content">
-                <h3>
-                    Project I
-                </h3>
-                <p>
-                    First test cases
-                </p>
-            </div>
+          <img src="My works image2.jpg" alt="My works image2" />
+          <div class="Cards_content">
+            <h3>Project I</h3>
+            <p>First test cases</p>
+          </div>
         </div>
-        
-                
+
         <div class="Cards">
-            <img src="My works image3.jpg" alt="My works image3">
-            <div class="Cards_content">
-                <h3>
-                    Project I
-                </h3>
-                <p>
-                    First test cases
-                </p>
-            </div>
+          <img src="My works image3.jpg" alt="My works image3" />
+          <div class="Cards_content">
+            <h3>Project I</h3>
+            <p>First test cases</p>
+          </div>
         </div>
-        </div>
+      </div>
     </section>
-    
 
     <section class="Work_process">
-        <h2>
-            Work process
-        </h2>
-        <div class="Work_process_parts">
+      <h2>Work process</h2>
+      <div class="Work_process_parts">
         <div class="Work_process_part">
-            <div class="WP_left"> 
-                <h3>
-                Training
-                </h3>
+          <div class="WP_left">
+            <h3>Training</h3>
             <div class="Lines"></div>
             <p>
-                Studying theoretical materials on QA engineering to enter the profession
+              Studying theoretical materials on QA engineering to enter the
+              profession
             </p>
-            </div>
-            <span class="Number">1</span>
+          </div>
+          <span class="Number">1</span>
         </div>
 
         <div class="Work_process_part">
-            <div class="WP_left"> <h3>
-                Homework
-            </h3>
+          <div class="WP_left">
+            <h3>Homework</h3>
             <div class="Lines"></div>
             <p>
-                Completing homework assignments, no matter how interesting or not they may be
+              Completing homework assignments, no matter how interesting or not
+              they may be
             </p>
-            </div>
-            <span class="Number">2</span>
+          </div>
+          <span class="Number">2</span>
         </div>
 
         <div class="Work_process_part">
-            <div class="WP_left"> <h3>
-                Self-study
-            </h3>
+          <div class="WP_left">
+            <h3>Self-study</h3>
             <div class="Lines"></div>
-            <p>
-                Exploring additional materials and working with ChatGPT
-            </p>
-            </div>
-            <span class="Number">3</span>
+            <p>Exploring additional materials and working with ChatGPT</p>
+          </div>
+          <span class="Number">3</span>
         </div>
 
         <div class="Work_process_part">
-            <div class="WP_left"> <h3>
-                My Documents
-            </h3>
+          <div class="WP_left">
+            <h3>My Documents</h3>
             <div class="Lines"></div>
             <p>
-                A repository of key materials from the QA engineer training course
+              A repository of key materials from the QA engineer training course
             </p>
+          </div>
+          <span class="Number">4</span>
         </div>
-            <span class="Number">4</span>
-        </div>
-    </div>
+      </div>
     </section>
-    
 
     <section class="Feedback">
-        <h2>
-            Get in touch!
-        </h2>
-        <p>
-            Just fill out the form below and send me your message
-        </p>
-        <form class="Main_forma">
+      <h2>Get in touch!</h2>
+      <p>Just fill out the form below and send me your message</p>
+      <form class="Main_forma">
         <div class="Forma">
-            <input type="text" placeholder="your name">
-            <input type="email" placeholder="your email">
+          <input type="text" placeholder="your name" />
+          <input type="email" placeholder="your email" />
         </div>
         <textarea placeholder="hold your message"></textarea>
         <button type="submit">Send message</button>
-        </form>
+      </form>
     </section>
-    
-    
+
     <footer>
-        <div class="Footer_name">
-            IuriiSmirnov
-        </div>
-        <div class="Footer_links">
-            <ul>
-                <li> 
-                    <a href="#">
-                        Instagram
-                    </a>
-                </li>
-                <li> 
-                    <a href="#">
-                        Facebook
-                    </a>
-                </li>
-                <li> 
-                    <a href="#">
-                        Telegram
-                    </a>
-                </li>
-            </ul>
-        </div>
-     </footer>
-</body>
+      <div class="Footer_name">IuriiSmirnov</div>
+      <div class="Footer_links">
+        <ul>
+          <li>
+            <a href="#"> Instagram </a>
+          </li>
+          <li>
+            <a href="#"> Facebook </a>
+          </li>
+          <li>
+            <a href="#"> Telegram </a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>
