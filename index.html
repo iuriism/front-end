@@ -24,20 +24,20 @@
       <div class="Header_nav" id="menu-id">
         <nav>
           <ul>
-            <li><a href="#">About me</a></li>
-            <li><a href="#">My works</a></li>
-            <li><a href="#">My process</a></li>
+            <li><a href="#Main_id">About me</a></li>
+            <li><a href="#My_works_id">My works</a></li>
+            <li><a href="#Work_process_id">My process</a></li>
           </ul>
         </nav>
       </div>
       <button class="Header_button" target="_blank">
-        <a href="#"> Contact me </a>
+        <a href="#Feedback_id"> Contact me </a>
      </button>
 
       
     </header>
 
-    <section class="Main">
+    <section class="Main" id="Main_id">
       <div class="Main_image">
         <img src="main_image.jpg" alt="Main image" />
       </div>
@@ -53,11 +53,11 @@
         </p>
       </div>
       <button class="Button2">
-        <a href="#"> Let's get in touch </a>
+        <a href="#Feedback_id"> Let's get in touch </a>
       </button>
     </section>
 
-    <section class="My_works">
+    <section class="My_works" id="My_works_id">
       <h2>My works</h2>
       <div class="My_works_cards_block">
         <div class="Cards">
@@ -86,12 +86,12 @@
       </div>
     </section>
 
-    <section class="Work_process">
+    <section class="Work_process" id="Work_process_id">
       <h2>Work process</h2>
       <div class="Work_process_parts">
         <div class="Work_process_part">
           <div class="WP_left">
-            <h3>Training</h3>
+            <h3><a href="https://techstartacademy.io/" target="_blank">Training</a></h3>
             <div class="Lines"></div>
             <p>
               Studying theoretical materials on QA engineering to enter the
@@ -103,7 +103,7 @@
 
         <div class="Work_process_part">
           <div class="WP_left">
-            <h3>Homework</h3>
+            <h3><a href="https://www.atlassian.com/ru/software/confluence" target="_blank">Homework</a></h3>
             <div class="Lines"></div>
             <p>
               Completing homework assignments, no matter how interesting or not
@@ -115,7 +115,7 @@
 
         <div class="Work_process_part">
           <div class="WP_left">
-            <h3>Self-study</h3>
+            <h3><a href="https://chatgpt.com/" target="_blank">Self-study</a></h3>
             <div class="Lines"></div>
             <p>Exploring additional materials and working with ChatGPT</p>
           </div>
@@ -124,7 +124,7 @@
 
         <div class="Work_process_part">
           <div class="WP_left">
-            <h3>My Documents</h3>
+            <h3><a href="https://drive.google.com/" target="_blank">My Documents</a></h3>
             <div class="Lines"></div>
             <p>
               A repository of key materials from the QA engineer training course
@@ -135,15 +135,15 @@
       </div>
     </section>
 
-    <section class="Feedback">
+    <section class="Feedback" id="Feedback_id">
       <h2>Get in touch!</h2>
       <p>Just fill out the form below and send me your message</p>
       <form class="Main_forma">
         <div class="Forma">
-          <input type="text" placeholder="your name" />
-          <input type="email" placeholder="your email" />
+          <input type="text" placeholder="your name (max 30)" maxlength="30"/>
+          <input type="email" placeholder="your email (max 50)" maxlength="50"/>
         </div>
-        <textarea placeholder="hold your message"></textarea>
+        <textarea placeholder="hold your message (max 500)" maxlength="500"></textarea>
         <button type="submit">Send message</button>
       </form>
     </section>
@@ -153,13 +153,13 @@
       <div class="Footer_links">
         <ul>
           <li>
-            <a href="#"> Instagram </a>
+            <a href="https://www.instagram.com/" target="_blank"> Instagram </a>
           </li>
           <li>
-            <a href="#"> Facebook </a>
+            <a href="https://www.facebook.com/" target="_blank"> Facebook </a>
           </li>
           <li>
-            <a href="#"> Telegram </a>
+            <a href="https://web.telegram.org/" target="_blank"> Telegram </a>
           </li>
         </ul>
       </div>
